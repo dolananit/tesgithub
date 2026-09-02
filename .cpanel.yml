@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/desn4385/public_html/test.github
+    - /bin/cp -R * $DEPLOYPATH
